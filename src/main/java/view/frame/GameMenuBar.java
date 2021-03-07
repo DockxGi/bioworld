@@ -1,7 +1,8 @@
 package view.frame;
 
 import model.Game;
-import view.dialog.NewGameDialog;
+import view.dialog.game.NewGameDialog;
+import view.dialog.mapEditor.MapEditorDialog;
 
 import javax.swing.*;
 
@@ -27,6 +28,10 @@ public class GameMenuBar extends JMenuBar {
     private void addListeners() {
         this.newGameMenuItem.addActionListener(e -> {
             new NewGameDialog(GameMenuBar.this.model);
+        });
+
+        this.mapEditorMenu.addActionListener(e -> {
+            new MapEditorDialog();
         });
     }
 

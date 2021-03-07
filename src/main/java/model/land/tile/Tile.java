@@ -6,5 +6,15 @@ package model.land.tile;
 public class Tile {
     private Ground ground;
 
+    public Tile(Ground ground) {
+        this.ground = ground;
+    }
 
+    public Ground getGround() {
+        return ground;
+    }
+
+    public void setGround(Ground ground) {
+        this.ground = ground;
+    }
 }

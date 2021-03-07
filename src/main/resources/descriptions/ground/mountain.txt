@@ -1,0 +1,3 @@
+A steep mountainside which you can not climb.
+A mountain can have caves.
+Ore deposits can be hidden within the rock.
